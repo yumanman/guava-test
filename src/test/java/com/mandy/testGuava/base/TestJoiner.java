@@ -46,9 +46,9 @@ public class TestJoiner {
     @Test
     public void testJoinerOnMap(){
         Map<String,String> map=new HashMap<String,String>();
-        map.put("a","A");
         map.put("b",null);
         map.put("c","C");
+        map.put("a","A");
         //String a=Joiner.on(",").withKeyValueSeparator("=").join(map);
         // will throw NullPointerException
         // and skipNulls can not use on map
